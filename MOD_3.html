@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<!--Novi Maria Natalia_IT-46-02_1303223106-->
+
+<html>
+
+<head>
+    <title>PROFILE DIRI</title>
+    <!-- tag title memberikan judul yang muncul pada tab browser,
+     digunakan pada bagian head karena judul yang muncul pada tab
+     browser bukan bagian dari konten yang ditampilkan didalam halaman -->
+</head>
+
+<body>
+    <h1>Profil Pribadi</h1>
+    <!-- tag h1 untuk judul utama halaman,
+     digunakan diawal untuk memberikan hierarki heading utama -->
+    <div>
+    <!-- tag div menjadi wadah atau pemisah untuk mengelompokkan konten di halaman web,
+     digunakan sebelum dan sesudah tabel untuk memisahkannya dari konten setelahnya -->
+        <table cellpadding="10">
+        <!-- tag table membuat tabel,
+         digunakan untuk membuat tabel berisi foto profil dan video perkenalan.
+         cellpadding mengatur jarak antar sel -->
+            <tr>
+            <!-- tag tr untuk membuat baris dalam tabel -->
+                <th>Foto Profil</th>
+                <th>Video Perkenalan</th>
+                <!-- tag th untuk sel header tabel -->
+            </tr>
+            <tr>
+                <td>
+                    <img width="250" src="Foto Profil.jpg" alt="Foto Profil"></td>
+                    <!-- tag img menampilkan gambar.
+                     width mengatur lebar gambar.
+                     src berisi sumber gambar yang ditampilkan.
+                     alt berisi teks alternatif jika gambar tidak dapat ditampilkan-->
+                <td>
+                    <video width="300" controls>
+                    <!-- tag video menampilkan video.
+                     width mengatur lebar video.
+                     controls menampilkan kontrol video (pause, pause) -->
+                        <source src="Video Perkenalan.mp4" type="video/mp4">
+                        <!-- tag source mendefinisikan sumber video yang ditampilkan.
+                         type berisi format video -->
+                    </video>
+                </td>
+                <!-- tag td untuk sel data tabel -->
+            </tr>
+        </table>
+    </div>
+
+    <div>
+    <!-- tag div digunakan sebelum subjudul Tentang Saya dan sesudah paragraf
+     untuk memisahkan konten dengan konten sebelum dan setelahnya -->
+        <h2>Tentang Saya</h2>
+        <!-- tag h2 sebagai subjudul -->
+        <p>Halo! Saya adalah seorang pengembang web antusias dengan passion 
+            di bidang teknologi dan desain kreatif.</p>
+        <!-- tag p berisi sebuah paragraf -->
+    </div>
+
+    <div>
+    <!-- tag div digunakan sebelum subjudul Keterampilan dan sesudah tabel Keterampilan
+     untuk memisahkan konten dengan konten sebelum dan setelahnya -->
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+    <!-- tag div digunakan sebelum subjudul Hubungi Saya dan sesudah form
+     untuk memisahkan konten dengan konten sebelum dan setelahnya -->
+        <h2>Hubungi Saya</h2>
+        <form>
+        <!-- tag form membuat formulir untuk masukan pengguna -->
+            Nama: <input type="text" name="nama"><br />
+            Email: <input type="text" name="email"><br />
+            <!-- tag input sebagai tempat pengguna memasukkan data
+             type berisi jenis input yang diterima.
+             name memberikan nama identifikasi untuk input.
+             tag br membuat line break (pindah baris) -->
+            Pesan: <br />
+            <textarea name="pesan" rows="5" cols="20"></textarea><br />
+            <!-- tag textarea berupa masukan teks multi-baris.
+             rows berisi jumlah baris dan cols berisi jumlah kolom -->
+            <button type="button">Kirim Pesan</button>
+            <!-- tag button mendefinisikan tombol yang dapat diklik.
+             type berisi jenis tombol -->
+        </form>
+    </div>
+
+    <div>
+    <!-- tag div digunakan sebelum subjudul Media Sosial dan sesudah link sosial media
+     untuk memisahkan konten dengan konten sebelum dan setelahnya -->
+        <h3>Media Sosial:</h3>
+        <a href="https://www.linkedin.com/in/novi-maria-natalia-bba11523a/">LinkedIn</a> | 
+        <a href="https://github.com/NoviMariaNatalia/Webpro">GitHub</a> | 
+        <a href="https://x.com/20NoviMariaNat1?t=5GiqTAA5B5hhHcHW33adVQ&s=08">Twitter</a>
+        <!-- tag a membuat hyperlink yang menghubungkan ke halaman lain.
+         href menunjukkan tujuan tautan -->
+    </div>
+</body>
+
+</html>
